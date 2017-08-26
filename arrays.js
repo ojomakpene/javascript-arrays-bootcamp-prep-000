@@ -40,4 +40,3 @@ function destructivelyRemoveElementFromEndOfArray(array) {
  Delete array[2]
   return array
 }
-

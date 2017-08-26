@@ -14,6 +14,6 @@ array = [...array, 'foo']
  return array
 }
 function destructivelyAddElementToEndOfArray(array, element) {
-array.push['foo']
+array.push('foo')
 return array
 }

@@ -1,5 +1,4 @@
 var array = [1]
-var array1 = [1, 2, 3]
 var accessElementInArray = [1, 2, 3]
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 console.log(chocolateBars)
@@ -21,6 +20,6 @@ return array
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
 //var array = [1, 2, 3]
-array1.shift()
-return array
+accessElementInArray.shift()
+return accessElementInArray
 }

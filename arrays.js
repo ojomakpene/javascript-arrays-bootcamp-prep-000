@@ -17,3 +17,32 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push['foo']
   return array
 }
+function accessElementInArray(array, index) {
+var array = [1, 2, 3]
+ console.log(accessElementInArray[2])
+}
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  var array = [1, 2, 3]
+  array.shift()
+  return array
+}
+function removeElementFromBeginningOfArray(array) {
+ var array = [1, 2, 3]
+ return  array.slice(1)
+}
+function destructivelyRemoveElementFromEndOfArray(array) {
+ 
+ var array = [1, 2, 3]
+ 
+ array.pop()
+ 
+ return array
+
+}
+
+
+
+
+
+
+

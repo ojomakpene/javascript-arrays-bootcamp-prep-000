@@ -20,6 +20,6 @@ return array
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
 var array = [1, 2, 3]
-array.splice(0,1)
+array.unshift
 return array
 }

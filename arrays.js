@@ -19,7 +19,7 @@ array.push('foo')
 return array
 }
 function accessElementInArray(array, index) {
-  array = array1
+  array = [1, 2, 3]
   return console.log(array[2])
 }
 }

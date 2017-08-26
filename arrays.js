@@ -1,4 +1,5 @@
 var array = [1]
+var array1 = [1, 2, 3]
 var accessElementInArray = [1, 2, 3]
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 console.log(chocolateBars)

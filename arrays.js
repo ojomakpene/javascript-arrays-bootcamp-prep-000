@@ -20,5 +20,5 @@ return array
 }
 function accessElementInArray(array, index) {
   array = array1;
-  return console.log(array[2])
+console.log(array[2])
 }

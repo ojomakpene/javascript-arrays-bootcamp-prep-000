@@ -45,4 +45,15 @@ it('alters `array`', () => {
  expect(array).to.eql(array)
   })
  })
+ describe('destructivelyAddElementToEndOfArray(array, element)', () => {
+ it('adds an `element` to the end of an `array`', () => {
+ expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
+ })
+it('alters `array`', () => {
+const array = [1]
+destructivelyAddElementToEndOfArray(array, 'foo') 
+expect(array).to.eql([1, 'foo'])
+})
+ })
+  
 })

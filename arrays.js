@@ -18,6 +18,6 @@ array.push('foo')
 return array
 }
 function accessElementInArray(array, index) {
-arr = [1, 2, 3]
- console.log(arr[1])
+var array = [1, 2, 3]
+ console.log(array[2])
 }

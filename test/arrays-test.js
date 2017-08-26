@@ -33,7 +33,7 @@ expect(array).to.eql([1])
     destructivelyAddElementToBeginningOfArray(array, 'foo')
     expect(array).to.eql(['foo', 1])
     })
-   
+
    })
  })
 

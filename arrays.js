@@ -13,3 +13,8 @@ function addElementToEndOfArray(array, element) {
 array = [...array, 'foo']
  return array
 }
+function destructivelyAddElementToEndOfArray(array, element) {
+array.push['foo']
+return array
+}
+

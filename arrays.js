@@ -30,3 +30,9 @@ function removeElementFromBeginningOfArray(array) {
  var array = [1, 2, 3]
  return  array.slice(1)
 }
+function removeElementFromEndOfArray(array) {
+  var array = [1, 2, 3]
+  array.slice(0, array.length - 1)
+  return array
+}
+

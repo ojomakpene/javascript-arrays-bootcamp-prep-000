@@ -57,12 +57,12 @@ expect(array).to.eql([1, 'foo'])
  })
  describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
  it('returns the `array` with the first element removed', () => {
- expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
+ expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([1])
  })
 it('did not make a copy of the array when removing the first element', ()=>{
 const array = [1, 2, 3];
 destructivelyRemoveElementFromBeginningOfArray(array);
-expect(array).to.eql([2, 3]);
+expect(array).to.eql([1]);
 })
  })
 

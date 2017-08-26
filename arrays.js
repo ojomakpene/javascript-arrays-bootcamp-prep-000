@@ -19,5 +19,5 @@ return array
 }
 function accessElementInArray(array, index) {
 arr = [1, 2, 3]
- console.log(arr[2])
+ console.log(arr[1])
 }

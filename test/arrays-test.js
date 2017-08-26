@@ -55,10 +55,15 @@ destructivelyAddElementToEndOfArray(array, 'foo')
 expect(array).to.eql([1, 'foo'])
 })
  })
- describe('accessElementInArray(array, index)', () => {
-it('accesses the element in `array` at the given `index`', () => {
-expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
+ describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
+ it('returns the `array` with the first element removed', () => {
+ expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
  })
-  })
+it('did not make a copy of the array when removing the first element', ()=>{
+const array = [1, 2, 3];
+destructivelyRemoveElementFromBeginningOfArray(array);
+expect(array).to.eql([2, 3]);
+})
+ })
 
 })

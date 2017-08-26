@@ -19,7 +19,7 @@ array.push('foo')
 return array
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-var array = [1, 2, 3]
-//array.shift()
-return array.slice(-2)
+//var array = [1, 2, 3]
+array1.shift()
+return array
 }

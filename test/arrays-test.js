@@ -55,6 +55,6 @@ destructivelyAddElementToEndOfArray(array, 'foo')
 expect(array).to.eql([1, 'foo'])
 })
  })
- 
+
 
 })

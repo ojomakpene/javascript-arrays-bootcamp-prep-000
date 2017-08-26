@@ -1,5 +1,5 @@
 var array = [1]
-var array1 = [1, 2, 3]
+var accessElementInArray = [1, 2, 3]
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 console.log(chocolateBars)
 function addElementToBeginningOfArray(array, element) {
@@ -19,6 +19,5 @@ array.push('foo')
 return array
 }
 function accessElementInArray(array, index) {
-  array = array1;
-console.log(array[2])
+console.log(accessElementInArray[2])
 }

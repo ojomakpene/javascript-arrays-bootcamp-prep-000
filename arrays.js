@@ -18,6 +18,10 @@ function destructivelyAddElementToEndOfArray(array, element) {
 array.push('foo')
 return array
 }
-function accessElementInArray(array, index) {
-console.log(accessElementInArray[2])
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+var array = [1, 2, 3]
+array.shift()
+return array
 }
+
+

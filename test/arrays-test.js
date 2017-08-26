@@ -55,5 +55,10 @@ destructivelyAddElementToEndOfArray(array, 'foo')
 expect(array).to.eql([1, 'foo'])
 })
  })
-
+ describe('accessElementInArray(array, index)', () => {
+it('accesses the element in `array` at the given `index`', () => {
+expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
+ })
+  })
+  
 })

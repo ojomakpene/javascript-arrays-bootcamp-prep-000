@@ -24,7 +24,17 @@ it('does not alter `array`', () => {
 addElementToBeginningOfArray(array, 'foo')
 expect(array).to.eql([1])
   })
-
+    describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
+    it('adds an `element` to the beginning of an `array`', () => {
+    expect(destructivelyAddElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
+   })
+  it('alters `array`', () => {
+    const array = [1]
+    destructivelyAddElementToBeginningOfArray(array, 'foo')
+    expect(array).to.eql(['foo', 1])
+    })
+   
+   })
  })
 
 })

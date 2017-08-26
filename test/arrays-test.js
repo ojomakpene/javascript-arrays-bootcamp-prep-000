@@ -51,9 +51,9 @@ it('alters `array`', () => {
  })
 it('alters `array`', () => {
 const array = [1]
-destructivelyAddElementToEndOfArray(array, 'foo') 
+destructivelyAddElementToEndOfArray(array, 'foo')
 expect(array).to.eql([1, 'foo'])
 })
  })
-  
+
 })

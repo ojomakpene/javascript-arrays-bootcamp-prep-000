@@ -20,6 +20,6 @@ return array
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
 //var array = [1, 2, 3]
-accessElementInArray.shift()
-return accessElementInArray
+//accessElementInArray.shift()
+return accessElementInArray.shift()
 }

@@ -10,6 +10,6 @@ array.unshift('foo')
  return array
 }
 function addElementToEndOfArray(array, element) {
-[...array, 'foo']
+array = [...array, 'foo']
  return array
 }

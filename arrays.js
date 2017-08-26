@@ -13,5 +13,3 @@ function addElementToEndOfArray(array, element) {
 [...array, 'foo']
  return array
 }
-
-

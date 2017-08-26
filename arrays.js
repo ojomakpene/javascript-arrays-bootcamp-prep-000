@@ -32,7 +32,7 @@ function removeElementFromBeginningOfArray(array) {
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
  var array = [1, 2, 3]
+ const array = [1, 2, 3]
 array.pop()
-const array = [1, 2, 3]
 return array
 }
